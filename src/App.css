@@ -1,0 +1,155 @@
+body{
+  height: 100vh;
+}
+#root{
+  height: 100%;
+}
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.warn-section {
+  background-color: yellow;
+}
+
+.nav-section {
+  height: 40px;
+  background-color: rgb(63, 63, 63);
+  border: 1px solid rgb(224, 224, 224) !important;
+}
+
+.main-section {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+}
+
+.work-section {
+  color: white;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  width: 30vw !important;
+  margin: auto;
+}
+.modal-content{
+  background-color: rgb(48, 48, 48)!important;
+}
+.white-text{
+  color: rgb(255, 255, 255)!important;
+}
+.grey-text{
+  color: #a3a3a3;
+}
+
+.divide {
+  border-top: 1px solid rgb(97, 97, 97) !important;
+}
+
+.from_section {
+  background-color: #384561;
+  border-radius: 10px;
+}
+
+.currency_select {
+  background: transparent !important;
+  border: none !important;
+  color: white !important;
+}
+
+option {
+  background-color: #384561;
+}
+
+.custom_btn {
+  width: 80% !important;
+  background-color: rgb(187, 147, 36) !important;
+  border-color: rgb(187, 147, 36) !important;
+  border-radius: 100px !important;
+}
+
+.custom_connect_btn {
+  width: 80% !important;
+  background-color: rgb(187, 147, 36) !important;
+  border-color: rgb(187, 147, 36) !important;
+  border-radius: 10px !important;
+}
+
+.nav_connect_btn {
+  width: 150px !important;
+  background-color: rgb(187, 147, 36) !important;
+  border-color: rgb(187, 147, 36) !important;
+  border-radius: 100px !important;
+}
+.modal-header{
+  border-bottom : #4f4f4f !important;
+}
+.modal-dialog{
+  max-width: 30vw !important;
+}
+@media only screen and (max-width: 1500px) {
+  .work-section {
+    width: 30vw !important;
+  }
+  .modal-dialog{
+    max-width: 30vw !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .work-section {
+    width: 40vw !important;
+  }
+  .modal-dialog{
+    max-width: 40vw !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .work-section {
+    width: 50vw !important;
+  }
+  .modal-dialog{
+    max-width: 50vw !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .work-section {
+    width: 70vw !important;
+  }
+  .modal-dialog{
+    max-width: 70vw !important;
+  }
+}
