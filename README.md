@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# React Display Token list and connect wallet
+
+![website](https://github.com/DarkHorseCorder/React_TokenList_ConnectWallet/blob/master/public/screenshot.png)
+
+Show token list from JSON
+
+![website](https://github.com/DarkHorseCorder/React_TokenList_ConnectWallet/blob/master/public/token_list.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
